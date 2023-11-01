@@ -3,9 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heart Traill</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>hello world</h1>
+    <div class="container">
+      <div class="search">
+        <input class="search-input" type="text" placeholder="enter city name" />
+        <button class="search-btn">Search</button>
+        <p class="country">America</p>
+        <p class="warn">please enter a valid city name</p>
+      </div>
+      <div class="wrapper">
+      <div class="temp-details">
+        <img class="cloud-weather" src="cloudy.png" alt="cloudy">
+<h1 class="temp">25<small>°C</small></h1>
+<h3 class="temp-city">New York</h1>
+      </div>
+      <div class="humidity-wind">
+        <h4 class="humidity">Humidity 43%</h4>
+        <h4 class="wind">Wind Speed 5.4 km</h4>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
